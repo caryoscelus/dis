@@ -6,6 +6,8 @@ label blue_branch:
     scene blue
     "Blue. Cold and somewhat mysterious colour."
     "Blue. Colour of sea and sky. But here on quaint ceramic tiles it doesn't bring the lightness or expansing freedom to the atmosphere of the room. It only symbolizes lifeless water enclosed in the pipes."
+    scene bg bathroom at bg
+    with dissolve
     "I close the door behind me and look around. There's a bath with a curtain, toilet in the corner and tap on opposite wall."
     "First things first. I make few steps towards tap and start washing hands with warm water and soap."
     "It feels nice, except for looking at all the dirty water and realizing it all coming from my hands."
@@ -23,8 +25,9 @@ label blue_branch:
     nvl clear
     "Looking at myself more closely i notice blood is everywhere on my clothes as well. It disgusts me. I rip the clothes apart and take them off."
     "Only then i realize i may not be able to find new clothes, but i don't care."
+    play music "sfx/24092__dobroide__20061021-just-shower.flac" fadeout 1.0 fadein 1.0
     "I enter the bath and turn hot water on."
-    "Minutes pass as i wash away all the blood from my body."
+    "Minutes pass slowly as i wash away all the blood from my body."
     "..."
     nvl clear
     "Then i close the waste drain and water starts to fill the bath."
@@ -43,6 +46,8 @@ label blue_branch:
     "Thinking that, i watch the water. The process is really soothing."
     "..."
     nvl clear
+    scene bg bathroom blur at bg
+    with dissolve
     "Blue. With growing depth, crystal-clear water gains soft blue shade."
     "Blue. The colour of my future. Mystical, cold, but also so pure and refreshing."
     "Yes, all is left for me is rebirth. And here's a good start."

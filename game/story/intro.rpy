@@ -1,4 +1,5 @@
 label story:
+    play music "sfx/85670__cgeffex__heartbeat.mp3"
     scene red
     "Red.{w} The colour of roses, poppy and luxurious velvet."
     "Red.{w} The colour of sunset, ruby and wine."
@@ -11,9 +12,13 @@ label story:
     "Red.{w} The colour of blood."
     "Yes, now that is correct."
     "What is before my eyes is blood.{w} A lot of blood.{w} I could've said \"a sea of blood\" if not for the fact that it was all splattered on various objects."
+    show bg room blur at bg
+    with dissolve
     "Objects? Yes, if i concentrate i can see that blood is not the only thing i see.{w} It only covers everything around, but the normal world is still around."
     "When i look careful, it actually looks a lot like a normal room, which even seems familiar to me.{w} But something is odd.{w} The angle at which i look at it?"
     "Yes, that is correct again.{w} I finally realize i've been lying on the floor all this time.{w} I start to feel my body, but when i try to move, i meet resistance.{w} My body is really tired.{w} My muscles ache.{w} Why haven't i realized it before?"
+    scene bg room censor at bg
+    with dissolve
     nvl clear
     "With a significant effort, i finally get up and look around."
     "This room.{w} Painted in blood, yet chillingly familiar.{w} I try not to think about it."
@@ -24,8 +29,11 @@ label story:
     "..."
     nvl clear
     scene black
+    with dissolve
     "Black.{w} Darkness.{w} This is way, way better.{w} I feel like the air itself is more light here."
     "Black.{w} There are no light sources in here and i can't see anything.{w} But the more i look, the more my eyes are getting used to this darkness."
+    scene bg corridor at bg
+    with dissolve
     "Soon i can make out vague shapes which make up a corridor.{w} There are several doors."
     "First, the door back to the first room behind me."
     "Second, presumably the exit door, at the end of corridor."

@@ -3,10 +3,13 @@ label red_branch:
     "Even though that room is frightening me, i still must know the truth.{w} I must return back there."
     "As i open the door again, my field of vision is filled with red again."
     "..."
-    scene red
+    scene bg room blur at bg
+    with dissolve
     nvl clear
     "Red.{w} Now i have no doubts what it means.{w} The colour of blood spilled all over the room."
     "Now i'm not as frightened and bewildered as i was just a few minutes ago in this very room.{w} Now i'm here to face the reality, not run away from it."
+    scene bg room at bg
+    with dissolve
     "I look around the room and soon i find something i was ignoring and avoiding looking at before.{w} The body.{w} Unmistakably dead body."
     "Ugh.."
     "Yes, i should've been prepared to see death in here, but that body is so brutalized that i look away."
@@ -28,11 +31,15 @@ label red_branch:
     "But somehow all my rationality i had while examining the body, fades away."
     "..."
     nvl clear
+    scene bg room blur at bg
+    with dissolve
     "Red.{w} Yet again this colour is oppressing me in this small room."
     "Red.{w} Magnifying colour of blood from which no one can't expect.{w} At least, not me."
     "My vision becomes blurry and unstable.{w} I give up to my emotions."
     "This room, this incident, this blood.{w} All of it is much stronger than me."
     "And so i stop trying to defend myself from this cruel world.{w} I give in to red."
     nvl clear
+    scene red
+    with dissolve
     ":: red ending ::"
     return
