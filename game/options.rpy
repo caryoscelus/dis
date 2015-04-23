@@ -105,6 +105,8 @@ init -1 python hide:
     
     style.default.line_spacing = 8
     style.default.line_overlap_split = -4
+    
+    config.nvl_page_ctc = Text(' ⇊', color='#eeeeee', outlines=[(1, '#222222cc', 0, 0)],)
 
     ## Margin is space surrounding the window, where the background
     ## is not drawn.
@@ -126,27 +128,6 @@ init -1 python hide:
     ## and padding.
 
     # style.window.yminimum = 250
-
-
-    #########################################
-    ## This lets you change the placement of the main menu.
-
-    ## The way placement works is that we find an anchor point
-    ## inside a displayable, and a position (pos) point on the
-    ## screen. We then place the displayable so the two points are
-    ## at the same place.
-
-    ## An anchor/pos can be given as an integer or a floating point
-    ## number. If an integer, the number is interpreted as a number
-    ## of pixels from the upper-left corner. If a floating point,
-    ## the number is interpreted as a fraction of the size of the
-    ## displayable or screen.
-
-    # style.mm_menu_frame.xpos = 0.5
-    # style.mm_menu_frame.xanchor = 0.5
-    # style.mm_menu_frame.ypos = 0.75
-    # style.mm_menu_frame.yanchor = 0.5
-
 
     #########################################
     ## These let you customize the default font used for text in Ren'Py.
