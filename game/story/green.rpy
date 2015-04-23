@@ -12,15 +12,33 @@ label green_branch:
     "Between the glasses there's something that i don't see quite clearly."
     "The rest of kitchen is filled with nice furniture, none of which pique my curiosity."
     "All of it looks normal and familiar.{w} Even lack of window feels appropriate."
-    "I make a few steps forward and then suddenly..{w} ugh, what's that?"
+    "I make a few steps forward and then suddenly..{nw}"
+    play sound "sfx/white-noise.ogg"
+    show char ghost at bg:
+        alpha 1.0
+        pause 0.4
+        alpha 0
+    window hide
+    pause 0.4
+    window show
+    "Ugh, what was that?"
     "I feel sharp pain in the back of my head.{w} And..{w} have i just seen something?"
     "Nevermind."
     "..."
     nvl clear
     "Suddenly i realize i feel thirsty.{w} I think i'll just drink this wine.{w} I sit on the nearest chair and make a few gulps of red liquid.{w} Even though i drink it hastily, i still feel it's really tasty."
-    "Aww..{w} the pain strikes again in the back of my head.{w} I even close my eyes."
+    play sound "sfx/white-noise.ogg"
+    show char ghost at bg:
+        alpha 1.0
+        pause 0.4
+        alpha 0
+    window hide
+    pause 0.4
+    window show
+    "Aww..{w} the pain strikes again in the back of my head.{w} I even close my eyes for a moment.{nw}"
     scene black
     with dissolve
+    pause 0.5
     scene bg kitchen at bg
     with dissolve
     "When it ceases, i'm still sitting on the chair and in front of, on the table, stays laptop.{w} I haven't payed much attention to it before, but now it's so close that i can't help being interested."
@@ -33,6 +51,12 @@ label green_branch:
     nvl clear
     "I pour another glass of wine and start drinking it.{w} This time slowly, enjoying every bit of noble liquid."
     "Time passes slowly."
+    "..."
+    nvl clear
+    scene black
+    with blinds
+    scene bg kitchen at bg
+    with blinds
     "..."
     nvl clear
     scene bg kitchen blur at bg
