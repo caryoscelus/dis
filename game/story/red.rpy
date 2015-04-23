@@ -42,4 +42,5 @@ label red_branch:
     scene red
     with dissolve
     ":: red ending ::"
+    $ persistent.endings.add('red')
     return

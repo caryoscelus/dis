@@ -13,4 +13,5 @@ label black_branch:
     nvl clear
     scene black
     ":: black end ::"
+    $ persistent.endings.add('black')
     return

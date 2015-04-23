@@ -56,4 +56,5 @@ label blue_branch:
     nvl clear
     scene blue
     ":: blue end ::"
+    $ persistent.endings.add('blue')
     return

@@ -46,4 +46,5 @@ label white_branch:
     scene white
     with dissolve
     ":: white ending ::"
+    $ persistent.endings.add('white')
     return

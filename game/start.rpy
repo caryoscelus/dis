@@ -12,5 +12,6 @@ define narrator = Character(
 
 label start:
     call story
+    call discuss
     call credits
     return
