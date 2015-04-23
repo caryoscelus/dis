@@ -1,4 +1,7 @@
 label credits:
+    scene black
+    with fade
+    nvl clear
     play music "music/12. end of night.flac"
     "dis: interactive story by caryoscelus"
     "distributed under CC-BY-SA license"

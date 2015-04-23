@@ -14,7 +14,7 @@ label story:
     "What is before my eyes is blood.{w} A lot of blood.{w} I could've said \"a sea of blood\" if not for the fact that it was all splattered on various objects."
     show bg room blur at bg
     with dissolve
-    "Objects? Yes, if i concentrate i can see that blood is not the only thing i see.{w} It only covers everything around, but the normal world is still around."
+    "Objects?..{w} Yes, if i concentrate i can see that blood is not the only thing i see.{w} It only covers everything around, but the normal world is still around."
     "When i look careful, it actually looks a lot like a normal room, which even seems familiar to me.{w} But something is odd.{w} The angle at which i look at it?"
     "Yes, that is correct again.{w} I finally realize i've been lying on the floor all this time.{w} I start to feel my body, but when i try to move, i meet resistance.{w} My body is really tired.{w} My muscles ache.{w} Why haven't i realized it before?"
     scene bg room censor at bg
@@ -22,8 +22,8 @@ label story:
     nvl clear
     "With a significant effort, i finally get up and look around."
     "This room.{w} Painted in blood, yet chillingly familiar.{w} I try not to think about it."
-    "The window? Closed with blinds, painted in blood."
-    "The door? Semi-opened, with a few red splashes on it."
+    "The window?{w} Closed with blinds, painted in blood."
+    "The door?{w} Semi-opened, with a few red splashes on it."
     "Perhaps, i should move out of here.{w} It's hard to think in this red room.{w} It's even hard to breeze."
     "I fumble through the exit and close the door behind me."
     "..."
