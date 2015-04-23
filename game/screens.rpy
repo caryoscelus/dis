@@ -93,12 +93,11 @@ init -2:
 
     style menu_window is default
 
-    style menu_choice is button_text:
-        clear
-
-    style menu_choice_button is button:
-        xminimum int(config.screen_width * 0.75)
-        xmaximum int(config.screen_width * 0.75)
+    style menu_choice:
+        size 24
+        color '#eeeeee'
+        hover_color '#cccccc'
+        outlines [(3, '#222222cc', 0, 0)]
 
 
 ##############################################################################
@@ -186,23 +185,28 @@ screen main_menu():
     # The main menu buttons.
     frame:
         style_group "mm"
-        xalign .98
-        yalign .98
+        xalign .5
+        yalign .5
 
         has vbox
 
-        textbutton _("Start Game") action Start()
-        textbutton _("Load Game") action ShowMenu("load")
-        textbutton _("Preferences") action ShowMenu("preferences")
+        textbutton _("Start") action Start()
+        textbutton _("Load") action ShowMenu("load")
+        textbutton _("Config") action ShowMenu("preferences")
         textbutton _("Help") action Help()
         textbutton _("Quit") action Quit(confirm=False)
 
 init -2:
 
-    # Make all the main menu buttons be the same size.
-    style mm_button:
+    style mm_button is button_text:
         size_group "mm"
-
+    style mm_button_text:
+        size 32
+        color '#eeeeee'
+        hover_color '#cccccc'
+        outlines [(3, '#222222cc', 0, 0)]
+    style mm_frame:
+        background '#00000000'
 
 
 ##############################################################################
