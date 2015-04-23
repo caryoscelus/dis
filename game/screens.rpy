@@ -76,17 +76,11 @@ screen choice(items):
             spacing 2
 
             for caption, action, chosen in items:
+                button:
+                    action action
+                    style "menu_choice_button"
 
-                if action:
-
-                    button:
-                        action action
-                        style "menu_choice_button"
-
-                        text caption style "menu_choice"
-
-                else:
-                    text caption style "menu_caption"
+                    text caption style "menu_choice"
 
 init -2:
     $ config.narrator_menu = True
