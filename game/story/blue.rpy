@@ -14,6 +14,8 @@ label blue_branch:
     "..."
     nvl clear
     "When my hands are finally clean, i close the faucet and start looking for towel."
+    show char mirror at bg
+    with dissolve
     "But instead..{w} woah, what?!"
     "I am startled looking at myself in the mirror."
     "My face..{w} it's covered with blood, which looks almost black in this blue-shaded room.{w} It's not that visible on my black hair, but by the way strands are glued and messed up i can guess they are bloody as well."
@@ -24,6 +26,8 @@ label blue_branch:
     "I am pretty sure i'm not hurt anywhere, so this must be someone else's blood.{w} But, that much?.."
     nvl clear
     "Looking at myself more closely i notice blood is everywhere on my clothes as well.{w} It disgusts me.{w} I rip the clothes apart and take them off."
+    hide char
+    with dissolve
     "Only then i realize i may not be able to find new clothes, but i don't care."
     play music "sfx/24092__dobroide__20061021-just-shower.flac" fadeout 1.0 fadein 1.0
     "I enter the bath and turn hot water on."

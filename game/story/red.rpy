@@ -25,9 +25,13 @@ label red_branch:
     "And then this maniac finally knocked victim down to the floor and started killing using all those objects.{w} It's like the whole purpose of this was to use as much tools as possible in peculiar ways.{w} Yet again i think one made this was absolutely crazy."
     nvl clear
     "Suddenly something on the shelf near the bed piques my interest.{w} I walk towards it and take this something, which happens to be a photograph in a simple frame."
-    "There are two smiling girls in their early twenties or something.{w} One has straight black hair, tanned skin and dark eyes.{w} She smiles somewhat hesitantly.{w} The second has somewhat curly blond hair, blue eyes and pale skin.{w} Judging by situation it seems reasonable to assume that the blond is the victim of this horrible crime."
+    show char photo at bg
+    with dissolve
+    "There are two smiling girls in their early twenties or maybe younger.{w} One has straight black hair, tanned skin and dark eyes.{w} She smiles somewhat hesitantly.{w} The second has somewhat curly blond hair, blue eyes and pale skin.{w} Judging by situation it seems reasonable to assume that the blond is the victim of this horrible crime."
     "Looking at her gentle smile makes me feel depressed.{w} I almost cry out."
     "It's just a photograph, i tell myself."
+    hide char
+    with dissolve
     "But somehow all my rationality i had while examining the body, fades away."
     "..."
     nvl clear
