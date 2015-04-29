@@ -4,8 +4,9 @@ label credits:
     nvl clear
     play music "music/12. end of night.flac"
     "dis: interactive story by caryoscelus"
-    "distributed under CC-BY-SA license"
-    "made for ludum dare 32"
+    "{a=http://caryoscelus.github.io}caryoscelus.github.io{/a} — my site, a demo of a better game will be available there soon"
+    "distributed under {a=http://creativecommons.org/licenses/by-sa/4.0/}CC-BY-SA license{/a}"
+    "made for Ludum Dare 32"
     ".."
     "using Ren'Py engine by renpytom and contributors"
     ".."
@@ -17,6 +18,7 @@ label credits:
     "{a=http://freesound.org/people/dobroide/sounds/24092/}20061021.just.shower.flac by dobroide{/a}"
     "{a=http://freesound.org/people/ainayave/sounds/169906/}Ambient City by ainayave{/a}"
     ".."
-    "ending theme wasn't made specifically for this game, but it's still by me.."
+    "{a=https://www.jamendo.com/en/track/1215803/end-of-night}ending theme{/a} wasn't made specifically for this game, but it's still by me.."
+    "white noise is just a white noise ^_^"
     ".."
     return
