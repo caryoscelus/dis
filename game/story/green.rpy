@@ -13,6 +13,7 @@ label green_branch:
     "The rest of kitchen is filled with nice furniture, none of which pique my curiosity."
     "All of it looks normal and familiar.{w} Even lack of window feels appropriate."
     "I make a few steps forward and then suddenly..{nw}"
+    $ renpy.music.set_volume(0.5, channel='sound')
     play sound "sfx/white-noise.ogg"
     show char ghost at bg:
         alpha 1.0
