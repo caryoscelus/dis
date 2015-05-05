@@ -70,4 +70,5 @@ label green_branch:
     scene green
     with dissolve
     ":: green end ::"
+    $ persistent.endings.add('green')
     return
